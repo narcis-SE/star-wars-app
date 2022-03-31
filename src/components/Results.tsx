@@ -1,4 +1,5 @@
 import { Results } from "../models/People";
+import { ResultList } from "./ResultList";
 
 interface ResultProp{
     result: Results
@@ -9,6 +10,7 @@ export const Result = ({result}:ResultProp)=>{
     return(
         <div className="Result">
 
+            
             <h1>{result.name}</h1>
             <h2>{result.homeworld}</h2>
             <ul>

@@ -9,11 +9,12 @@ export interface Props{
 
 export const ResultList = ({results}:Props)=>{
 
+
+
     return(
         <div className="ResultList">
-
             {results.map((results,i) => <Result key={i} result={results} />)}
-
+        
         </div>
     )
 }

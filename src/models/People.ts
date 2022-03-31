@@ -1,7 +1,3 @@
-export interface People{
-    results: Results[];
-}
-
 export interface Results{
     name: string,
     height: string,
